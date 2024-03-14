@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Decodificador</title>
+    
+</head>
+
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <h1>Alura</h1>
+        </header>
+        <section class="inserir_texto">
+            <textarea name="textarea" cols="30" rows="10" placeholder="Digite seu texto aqui!"></textarea>
+
+            <div class="alerta">
+                <img src="./img/atencao.png" alt="">
+                <p>Apenas letras minúsculas e sem acento ou caracteres especiais</p>
+            </div>
+            <div class="botoes">
+                <button type="button" onclick="clicado('btnCriptografar')" id="criptografar">Criptografar</button>
+                <button type="button" onclick="clicado('btnDescriptografar')"
+                    id="descriptografar">Descriptografar</button>
+            </div>
+
+        </section>
+        <section class="conversao_texto">
+        
+            <img class="imagem_ilustracao" src="./img/ilustracao.svg"
+                alt="Pessoa de joelhos observando um diamante com uma lupa">
+            <p id="notificacao">Nenhuma mensagem<br> encontrada</p>
+            <p id="descricao">Digite um texto que você deseja<br> criptografar ou descriptografar.</p>
+            <div class="div_botao"></div>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <p>2024 - Bernardo Prieto</p>
+        <a href="https://www.linkedin.com/in/bernardoprieto/o" target="_blank">
+            <img src="./img/icon_linkedin.png" alt="logo do LinkedIn">
+        </a>
+        <a href="https://github.com/BernardoMDPrieto" target="_blank">
+            <img src="./img/icon_github.png" alt="logo do github">
+        </a>
+        <a href="bernardomdprieto@gmail.com" target="_blank">
+            <img src="./img/icon_email.png" alt="logo do email">
+        </a>
+    </footer>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
